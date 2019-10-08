@@ -1,0 +1,79 @@
+body {
+    background-color: #6d5c63;
+    background-size: 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-image: url(https://cdn.pixabay.com/photo/2015/04/28/21/20/pizza-744405_1280.jpg), url(https://cdn.pixabay.com/photo/2014/09/24/16/28/bricks-459299_1280.jpg);
+    background-blend-mode: lighten;
+}
+
+#header {
+    margin: -10px;
+    height: 85px;
+    width: auto;
+    background-color: #6d5c63;
+    text-align: left;
+}
+
+.header-logo {
+    margin: 3px;
+    height: 95px;
+}
+
+.dropdwnbtn {
+    height: 100%;
+    text-align: left;
+    background-color: #6d5c63;
+    border: none;
+}
+
+#menu-icon {
+    height: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+    background-color: #6d5c63;
+    filter: opacity(60%);
+}
+
+.menu-text {
+    vertical-align: middle;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    width: 100%;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .dropdown-content a {
+    color: black;
+    font-size: 14px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+  }
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}  
