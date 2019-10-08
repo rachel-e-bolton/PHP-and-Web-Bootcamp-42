@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+    background-image: url(https://cdn.pixabay.com/photo/2015/11/04/20/59/milky-way-1023340_1280.jpg);
+    background-size: 100vw;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+h1 {
+    text-align: center;
+}
+.page_container {
+    width: 100%;
+    height: 100%;
+}
+.top_row {
+    height: 15%;
+    width: 100%;
+    text-align: right;
+    font-size: 12px;
+    font-size: 1vw;
+}
+.middle {
+    height: 70%;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    font-size: 2vw;
+}
+.bottom_row {
+    height: 15%;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+    font-size: 1vw;
+}
+
+#non-metal {background-color: rgba(128, 128, 128, 0.6); border: 2px solid white;}
+#alkali-metal {background-color: rgba(255, 166, 0, 0.6); border: 2px solid white;}
+#alkaline-earth-metal {background-color: rgba(201, 1, 44, 0.6); border: 2px solid white;}
+#transition-metal {background-color: rgba(241, 218, 15, 0.6); border: 2px solid white;}
+#metal {background-color: rgba(0, 128, 0, 0.6); border: 2px solid white;}
+#metalloid {background-color: rgba(118, 172, 37, 0.6); border: 2px solid white;}
+#halogen {background-color: rgba(64, 224, 208, 0.6); border: 2px solid white;}
+#noble-gas {background-color: rgba(5, 122, 161, 0.6); border: 2px solid white;}
+#lanthanide {background-color: rgba(128, 0, 128, 0.6); border: 2px solid white;}
+#actinide {background-color: rgba(204, 110, 126, 0.6); border: 2px solid white;}
+#unknown-chem-properties {background-color: rgba(11, 51, 1, 0.6); border: 2px solid white;}
