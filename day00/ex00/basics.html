@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Basics</title>
+        <style>
+        body {background-color: pink; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+        .pagetitle {color: white; text-align: center;}
+        #main-container {
+            width: 100%;
+            display: flex;
+            }
+        #right_box {
+            width: 50%;
+            }
+        #left_box {
+            flex-grow: 1;
+            }
+        #img-container {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+            }
+        #logo-url {
+            display: block;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1 class="pagetitle">Shop the Web_</h1>
+        </header>
+        <div id="main-container">
+            <div id="right_box">
+                <img id="img-container" src="http://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/512x512/Amazon.png" alt="amazon.com" /> <br />
+                <a href="https://www.amazon.com" id="logo-url">Head to AMAZON.COM</a>
+            </div>
+            <div id="left_box">
+                <img id="img-container" src="http://files.softicons.com/download/social-media-icons/flat-gradient-social-icons-by-guilherme-lima/png/512x512/Etsy.png" alt="etsy.com" /> <br />
+                <a href="https://www.etsy.com" id="logo-url" >Head to ETSY.COM</a>
+            </div>
+        </div>
+        <br />
+        <hr color="white" />
+        <div id="main-container">
+            <p style="font-style: italic; font-family: monospace; text-align: right; width: 100%">
+                © rbolton 2019
+            </p>
+        </div>
+    </body>
+</html>

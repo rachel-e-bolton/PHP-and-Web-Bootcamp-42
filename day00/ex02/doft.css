@@ -1,0 +1,199 @@
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+#top_container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#middle_container {
+    margin: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#bottom_container {
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+#container_1 {
+    width: 1420px;
+    height: 138px;
+    display: inline-block;
+}
+
+#container_2 {
+    width: 1420px;
+    height: 138px;
+    display: inline-block;
+}
+
+#container_3 {
+    width: 1520px;
+    height: 170px;
+    display: inline-block;
+}
+
+.box {
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000000;
+}
+
+.grey_1 {
+    position: absolute;
+    margin: 10px;
+    background-color: rgb(144, 144, 144);
+    width: 1420px;
+    height: 138px;
+}
+
+.grey_2 {
+    float: left;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: rgb(144, 144, 144);
+    width: 138px;
+    height: 424px;
+}
+
+.grey_3 {
+    float: left;
+    margin: 10px;
+    margin-left: 20px;
+    background-color: rgb(144, 144, 144);
+    width: 1020px;
+    height: 584px;
+}
+
+.green {
+    position: relative;
+    background-color: rgb(136, 255, 137);
+    width: 520px;
+    height: 170px;
+}
+
+#Day_of_the_42_Header {
+    float: left;
+    height: 114px;
+    width: auto;
+    margin: 10px;
+}
+
+#reload {
+    float: right;
+    float: top;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+#close {
+    position: relative;
+    top: -9px;
+    left: 613px;
+    height: 20px;
+    width: 20px;
+    margin: 10px;
+}
+
+#magnifier {
+    position: relative;
+    top: 9px;
+    left: 316px;
+    height: 150px;
+    width: auto;
+}
+
+.action {
+    height: 66px;
+    width: 66px;
+    margin: 5px;
+}
+
+#Look {
+    border: 5px solid red;
+    border-radius: 5px;
+}
+
+#cluster_img {
+    margin: 10px;
+    width: 1000px;
+    height: auto;
+}
+
+.clickable {
+    width: 177px;
+    height: 177px;
+}
+
+#chair {
+    position: relative;
+    top: -260px;
+    left: 300px;
+}
+
+#mac {
+    position: relative;
+    top: -450px;
+    left: 800px;
+}
+
+#book {
+    margin: 5px;
+    width: 69px;
+    height: 90px;
+}
+
+#towel {
+    margin: 5px;
+    width: 70px;
+    height: 50px;
+}
+
+#brick {
+    margin: 9px;
+    width: 121px;
+    height: 70px;
+    background-image: url(./resources/brick.jpg);
+}
+
+.sans-serif {
+    position: relative;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.serif {
+    position: relative;
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.shadow-text {
+    text-shadow: 6px 6px 3px red;
+}
+
+.form {
+    position: relative;
+    height: 25px;
+    width: auto;
+}
+
+.free-text {
+    width: 380px;
+    height: auto;
+    box-shadow: -0.5px -0.5px 3px gray;
+}
+
+.repondre {
+    width: auto;
+    height: 22px;
+    border-radius: 2px;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
